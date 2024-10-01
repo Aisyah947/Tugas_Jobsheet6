@@ -2,16 +2,16 @@
 
 public class TugasNo2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input17 = new Scanner(System.in);
 
         System.out.print("Masukkan jenis buku (kamus/novel/yang lain): ");
-        String jenisBuku = scanner.nextLine().toLowerCase();
+        String jenisBuku = input17.nextLine().toLowerCase();
         
         System.out.print("Masukkan jumlah buku: ");
-        int jumlahBuku = scanner.nextInt();
+        int jumlahBuku = input17.nextInt();
         
         System.out.print("Masukkan harga buku: ");
-        double hargaBuku = scanner.nextDouble();
+        double hargaBuku = input17.nextDouble();
         
         double diskon = 0;
 
